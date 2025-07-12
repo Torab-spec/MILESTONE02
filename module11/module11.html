@@ -7,7 +7,153 @@
     <title>Building a Time table using HTML</title>
 </head>
 
+<style>
+    /* * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    } */
+    body {
+        background: #d9feb3;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: centert;
+    }
+
+    table {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-collapse: collapse;
+
+    }
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+    }
+</style>
+
 <body>
+    <h1>Time Table</h1>
+    <table cellspacing="15" cellpadding="15">
+        <!-- Heading Row -->
+        <tr>
+            <th>Day</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>Break</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+
+        </tr>
+        <!-- Heading second row -->
+        <tr>
+            <td>Time</td>
+            <td>8:30-9:10</td>
+            <td>9:10-9:50</td>
+            <td>9:50-10:30</td>
+            <td>10:30-10:50</td>
+            <td>10:50-11:30</td>
+            <td>11:30-12:05</td>
+            <td>12:05-12:40</td>
+            <td>12:40-1:15</td>
+        </tr>
+
+        <!-- Monday row -->
+        <tr>
+            <th>Monday</th>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td rowspan="6">Break</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+
+        </tr>
+
+        <!-- Tuesday row -->
+        <tr>
+            <th>Tuesday</th>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+
+
+        </tr>
+
+        <!-- Wednesday row -->
+        <tr>
+            <th>Wednesday</th>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+
+        </tr>
+
+
+        <!-- Thursday row -->
+        <tr>
+            <th>Thursday</th>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+
+        </tr>
+
+        <!-- Friday row -->
+        <tr>
+            <th>Friday</th>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+
+        </tr>
+
+        <!-- Saturday row -->
+        <tr>
+            <th>Saturday</th>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+            <td>Biology</td>
+
+
+
+        </tr>
+
+
+
+    </table>
+
 
 </body>
 
